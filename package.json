@@ -1,0 +1,22 @@
+{
+  "name": "sassandcss",
+  "version": "0.0.1",
+  "description": "Learning Sass from Udemy",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass ./Natours/starter/sass/main.scss ./Natours/starter/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TravelFiend/advanced-css-course.git"
+  },
+  "author": "Mike Grace",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TravelFiend/advanced-css-course/issues"
+  },
+  "homepage": "https://github.com/TravelFiend/advanced-css-course#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
